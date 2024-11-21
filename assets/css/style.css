@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {   
+    background: rgba(205, 215, 62, 0.7);
+    min-height: 100%;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;   
+    list-style-type: none;    
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    position: absolute;    
+    width: 100vw;
+    height: 100vh;   
+    
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: all;
+    color: #E84610;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+li {
+    margin: 10px;
+    padding: 5px;    
+}
+
+h1 {
+    color: orangered;    
+    margin-top: 30px;
+    text-align: center;
+}
